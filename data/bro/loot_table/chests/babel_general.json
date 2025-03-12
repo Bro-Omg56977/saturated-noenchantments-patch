@@ -1,0 +1,195 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 10,
+      "bonus_rolls": 5,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:paper",
+          "weight": 128,
+          "quality": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 5
+              }
+            },
+            {
+              "function": "minecraft:set_name",
+              "target": "item_name",
+              "name": {
+                "text": "Paper o' Gibberish",
+                "bold": false,
+                "italic": false,
+                "underlined": false,
+                "strikethrough": false,
+                "obfuscated": true
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:book",
+          "weight": 64,
+          "quality": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 5
+              }
+            },
+            {
+              "function": "minecraft:set_name",
+              "target": "item_name",
+              "name": {
+                "text": "Book of Gibberish",
+                "bold": false,
+                "italic": false,
+                "underlined": false,
+                "strikethrough": false,
+                "obfuscated": true
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:totem_of_undying",
+          "weight": 2,
+          "quality": 5,
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "target": "item_name",
+              "name": {
+                "text": "die? no no",
+                "bold": false,
+                "italic": false,
+                "underlined": false,
+                "strikethrough": false,
+                "obfuscated": true
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:enchanted_book",
+          "weight": 8,
+          "quality": 6,
+          "functions": [
+            {
+              "function": "minecraft:enchant_randomly",
+              "options": [
+                "minecraft:protection",
+                "minecraft:blast_protection",
+                "minecraft:fire_protection",
+                "minecraft:projectile_protection"
+              ],
+              "only_compatible": false
+            },
+            {
+              "function": "minecraft:enchant_randomly",
+              "options": "minecraft:thorns",
+              "only_compatible": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:enchanted_book",
+          "weight": 8,
+          "quality": 6,
+          "functions": [
+            {
+              "function": "minecraft:enchant_randomly",
+              "options": [
+                "minecraft:mending"
+              ],
+              "only_compatible": false
+            },
+            {
+              "function": "minecraft:enchant_randomly",
+              "options": "minecraft:unbreaking",
+              "only_compatible": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:enchanted_book",
+          "weight": 8,
+          "quality": 6,
+          "functions": [
+            {
+              "function": "minecraft:enchant_randomly",
+              "options": [
+                "minecraft:efficiency"
+              ],
+              "only_compatible": false
+            },
+            {
+              "function": "minecraft:enchant_randomly",
+              "options": "minecraft:sharpness",
+              "only_compatible": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:enchanted_book",
+          "weight": 8,
+          "quality": 6,
+          "functions": [
+            {
+              "function": "minecraft:enchant_randomly",
+              "options": [
+                "minecraft:looting"
+              ],
+              "only_compatible": false
+            },
+            {
+              "function": "minecraft:enchant_randomly",
+              "options": "minecraft:sharpness",
+              "only_compatible": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:enchanted_book",
+          "weight": 8,
+          "quality": 6,
+          "functions": [
+            {
+              "function": "minecraft:enchant_randomly",
+              "options": "minecraft:power",
+              "only_compatible": false
+            },
+            {
+              "function": "minecraft:enchant_randomly",
+              "options": "minecraft:punch",
+              "only_compatible": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:enchanted_book",
+          "weight": 8,
+          "quality": 4,
+          "functions": []
+        }
+      ]
+    }
+  ]
+}
